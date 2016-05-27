@@ -1,4 +1,4 @@
-function [ R_wavelet ] = dwt_2d( R )
+function [ R_wavelet,T ] = dwt_2d( R )
 %2D wavelet transform of all frames of the video(one color space R)
 
 %% data structure for 4 transformation level for 'sym2' 
